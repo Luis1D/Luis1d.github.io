@@ -1,0 +1,41 @@
+@import 'intro';
+@import 'nav';
+@import 'github';
+
+/* GLOBAL */
+.App {
+  text-align: center;
+}
+body {
+  background-color: #232228;
+  color: #FFF;
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+.display-item {
+    margin-bottom: 2rem;
+    height: 30rem;
+    overflow: scroll;
+    background-color: #141316dc;
+    max-width: 69%;
+}
+/* ICONS */
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.icon {
+  width: 3rem;
+}
+.node-icon {
+  width: 5rem;
+}

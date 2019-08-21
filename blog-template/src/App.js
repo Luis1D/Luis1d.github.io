@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './scss/App.scss';
 
 import Intro from './components/Intro';
 import Nav from './components/Nav';
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 

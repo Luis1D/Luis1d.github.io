@@ -1,13 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Nav = () => {
     return (
         <div className="nav">
             <nav>
-                <li className="nav-item"><Link to="/Personal/">Personal</Link></li>
-                <li className="nav-item"><Link to="/Blog/">Blog</Link></li>
-                <li className="nav-item"><Link to="/Github/">Lambda</Link></li>
+                <li className="nav-item"><NavLink to="/Personal/" activeStyle={{color: '#F64B29'}}>Personal</NavLink></li>
+                <li className="nav-item"><NavLink to="/Blog/" activeStyle={{color: '#F64B29'}}>Blog</NavLink></li>
+                <li className="nav-item"><NavLink to="/Github/" activeStyle={{color: '#F64B29'}}>Github</NavLink></li>
             </nav>
         </div>
     )

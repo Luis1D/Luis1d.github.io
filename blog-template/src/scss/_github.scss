@@ -1,0 +1,35 @@
+/* Github Cards */
+.github-title {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.github-card {
+  border: 1px solid #333E4E;
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+  padding-left: 1rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover {
+        color: #F64B29;
+        cursor: pointer;
+        transition: .25s ease-in-out;
+    }
+  } 
+}
+
+.view-github {
+    background-color: #F64B29;
+    border: none;
+    color: #fff;
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-top: 2rem;
+}

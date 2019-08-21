@@ -1,0 +1,31 @@
+/* NAV COMPONENT */
+.nav {
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-bottom: 5px solid #333E4E;
+  box-shadow: 0 .5rem .5rem 0 rgba(0, 0, 0, 0.5);
+}
+.nav nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  list-style: none;
+  font-size: 1.25rem;
+}
+.nav nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+nav li a:hover {
+  color: #F64B29;
+  cursor: pointer;
+  transition: .25s ease;
+}
+
+/* display-item */
+.display-item {
+  width: 75%;
+  margin: 0 auto;
+}
