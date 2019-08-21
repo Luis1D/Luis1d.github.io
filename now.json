@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "name": "blog-template",
+    "builds": [{ "src": "blog-template/package.json", "use": "@now/static-build", "config": {"distDir": "build"} }],
+    "routes": [
+        { "src": "/(.*)", "dest": "blog-template/$1" }
+    ]
+}
