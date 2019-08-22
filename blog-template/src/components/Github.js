@@ -28,8 +28,8 @@ class Github extends React.Component {
     render() {
         return (
             <div className="github display-item">
-                <a href="https://github.com/Luis1D"><button className="view-github">View On Github</button></a>
                 <h2 className="github-title">The following are projects worked on while attending Lambda School</h2>
+                <a href="https://github.com/Luis1D"><button className="view-github">View On Github</button></a>
                 {
                     this.state.github.map(value => {
                         return <GithubCard name={value.full_name} repo={value.clone_url} key={value.id}/>
