@@ -5,7 +5,8 @@ const Nav = () => {
     return (
         <div className="nav">
             <nav>
-                <li className="nav-item"><NavLink to="/Personal/" activeStyle={{color: '#F64B29'}}>Portfolio</NavLink></li>
+                <li className="nav-item"><NavLink to="/About/" activeStyle={{color: '#F64B29'}}>About</NavLink></li>
+                <li className="nav-item"><NavLink to="/Portfolio/" activeStyle={{color: '#F64B29'}}>Portfolio</NavLink></li>
                 {/* <li className="nav-item"><NavLink to="/Blog/" activeStyle={{color: '#F64B29'}}>Blog</NavLink></li> */}
                 <li className="nav-item"><NavLink to="/Github/" activeStyle={{color: '#F64B29'}}>Github</NavLink></li>
             </nav>

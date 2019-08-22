@@ -4,8 +4,9 @@ import './scss/App.scss';
 import Intro from './components/Intro';
 import Nav from './components/Nav';
 import Github from './components/Github';
-import Personal from './components/Personal';
+import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
+import About from './components/About';
 import { Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -14,8 +15,9 @@ function App() {
     <Intro />
     <Nav />
     <Switch>
+      <Route path="/About" component={About}/>
       <Route path="/Github" exact component={Github}/>
-      <Route path="/Personal" component={Personal}/>
+      <Route path="/Portfolio" component={Portfolio}/>
       {/* <Route path="/Blog" component={Blog}/> */}
     </Switch>
     </div>
