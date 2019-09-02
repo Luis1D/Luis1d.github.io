@@ -1,4 +1,5 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 import './scss/App.scss';
 
 import Intro from './components/Intro';
@@ -7,7 +8,7 @@ import Github from './components/Github';
 import Portfolio from './components/Portfolio';
 import Blog from './components/Blog';
 import About from './components/About';
-import { Route, Switch } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,11 +16,12 @@ function App() {
     <Intro />
     <Nav />
     <Switch>
-      <Route path="/About" component={About}/>
+      <Route path="/" exact component={About}/>
       <Route path="/Github" exact component={Github}/>
       <Route path="/Portfolio" component={Portfolio}/>
       {/* <Route path="/Blog" component={Blog}/> */}
     </Switch>
+    <Footer />
     </div>
   );
 }

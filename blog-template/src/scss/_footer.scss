@@ -1,0 +1,42 @@
+.footer {
+    height: 20%;
+    background-color: #000;
+    padding: 1rem;
+}
+.footer-ul {
+    display: flex;
+    justify-content: space-between;
+}
+.list-container {
+    width: 40%;
+    height: 12rem;
+    margin: 0 auto;
+
+    .icon-container {
+        max-width: 10rem;
+    }
+}
+.footer-head {
+    color: #fff;
+    font-size: 1.5rem;
+    padding-bottom: .25rem;
+}
+.footer-link {
+    color: #333E4E;
+
+    &:hover {
+        color: #fff;
+        transition: .25s ease;
+    }
+}
+.footer-spacer {
+    background-color: #fff;
+    max-height: 20rem;
+    width: 1px;
+}
+.f-nav-item {
+    padding: 1rem;
+}
+.social-icon {
+    width: 3rem;
+}
