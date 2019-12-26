@@ -1,36 +1,38 @@
-@import 'intro';
 @import 'nav';
-@import 'github';
 @import 'portfolio';
 @import 'about';
 @import 'footer';
+@import 'variables';
 
 /* GLOBAL */
-.App {
-  text-align: center;
-}
 body {
-  background-color: #232228;
-  color: #FFF;
+  background-color: rgb(14, 14, 14);
+  color: rgb(240, 240, 240);
+  font-family: $Inconsolata;
+  font-weight: lighter;
+  letter-spacing: .1rem;
 }
 a {
+  color: rgba(224, 224, 224, 0.904);
   text-decoration: none;
 }
-button {
-  outline: none;
+.App {
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+  background-color: rgb(24, 24, 24);
+  padding: 1rem;
 
-  &:hover {
-    cursor: pointer;
+  @media(min-width: 700px) {
+    width: 40rem;
   }
 }
-li {
-  list-style: none;
-}
-.display-item {
-    padding: .5rem 0 1rem 0;
-    margin-bottom: 5rem;
-    height: 30rem;
-    overflow: scroll;
-    background-color: #141316dc;
-    width: 84%;
+.social-container {
+  width: 15rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  .social-icon {
+    width: 3rem;
+  }
 }

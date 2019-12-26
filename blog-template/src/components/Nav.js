@@ -1,14 +1,20 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Nav = () => {
     return (
         <div className="nav">
+            <img src={require("../assets/portrait.jpg")} alt="portrait" className="portrait"/>
             <nav>
-                <li className="nav-item"><NavLink exact to="/" activeStyle={{color: '#F64B29'}}>About</NavLink></li>
-                <li className="nav-item"><NavLink to="/Portfolio/" activeStyle={{color: '#F64B29'}}>Portfolio</NavLink></li>
-                {/* <li className="nav-item"><NavLink to="/Blog/" activeStyle={{color: '#F64B29'}}>Blog</NavLink></li> */}
-                <li className="nav-item"><NavLink to="/Github/" activeStyle={{color: '#F64B29'}}>Github</NavLink></li>
+                <div className="user-name">
+                    <h1 className="my-name">Luis <span>De</span>Anda</h1>
+                    <h2>Full-Stack JavaScript Developer</h2>
+                </div>
+                <div className="navigation">
+                    <li className="nav-item"><NavLink exact to="/" activeStyle={{color: 'rgb(56, 223, 92)'}}>About</NavLink></li>
+                    <li className="nav-item"><NavLink to="/Portfolio/" activeStyle={{color: 'rgb(56, 223, 92)'}}>Portfolio</NavLink></li>
+                </div>
             </nav>
         </div>
     )
