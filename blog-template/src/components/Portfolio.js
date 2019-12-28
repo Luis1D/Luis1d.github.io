@@ -41,6 +41,7 @@ const Portfolio = () => {
                     <h3 className="portfolio-title"> > Todo App</h3>
                     <div className="preview-container">
                     <div className="tech-used">
+                        <h4>Tech Used:</h4>
                             <table>
                                 <tr>
                                     <th>Language</th>
@@ -68,6 +69,7 @@ const Portfolio = () => {
                     <h3 className="portfolio-title"> > Team Builder</h3>
                     <div className="preview-container">
                     <div className="tech-used">
+                        <h4>Tech Used:</h4>
                             <table>
                                 <tr>
                                     <th>Language</th>
