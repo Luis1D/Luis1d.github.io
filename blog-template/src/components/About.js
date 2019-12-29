@@ -19,17 +19,11 @@ const About = () => {
                         <div>
                             <h3>JavaScript</h3>
                             <img
-                                    src={ require('../assets/javascript.svg') }
-                                    alt="javascript icon"
-                                    className="icon"
+                                src={ require('../assets/javascript.svg') }
+                                alt="javascript icon"
+                                className="icon"
                             />
                         </div>
-                            <p>
-                                JavaScript is a scripting or programming language that allows you to implement complex features on web pages — 
-                                every time a web page does more than just sit there and display static information for you to look at — 
-                                displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — 
-                                you can bet that JavaScript is probably involved.
-                            </p>
                     </li>
                     <li>
                         <div>
@@ -40,10 +34,6 @@ const About = () => {
                                 className="icon"
                             />
                         </div>
-                        <p>
-                            React makes it painless to create interactive UIs. 
-                            Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
-                        </p>
                     </li>
                     <li>
                         <div>
@@ -54,10 +44,6 @@ const About = () => {
                                 className="icon"
                             />
                         </div>
-                        <p>
-                            Node.js is an open source, cross-platform runtime environment for developing server-side and networking applications. 
-                            Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, and Linux.
-                        </p>
                     </li>
                     <li>
                         <div>
@@ -68,7 +54,6 @@ const About = () => {
                                 className="icon"
                             />
                         </div>
-                        <p>Sass (which stands for 'Syntactically awesome style sheets) is an extension of CSS that enables you to use things like variables, nested rules, inline imports and more. It also helps to keep things organised and allows you to create style sheets faster.</p>
                     </li>
                 </ul>
             </div>

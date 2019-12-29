@@ -16,6 +16,7 @@
     }
 
     .tech-used-container {
+        margin-top: 2rem;
         ul {
             display: flex;
             flex-direction: column;
@@ -24,18 +25,21 @@
         li {
             list-style: none;
             background-color: rgba(0, 0, 0, 0.507);
+            border-radius: 3rem;
             margin-bottom: 1rem;
             padding: 1rem;
-            box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.9);
 
             h3 {
                 margin: 0;
                 padding: 0;
                 color: $Green;
+                font-size: 1.25rem;
             }
             div {
                 display: flex;
                 justify-content: space-between;
+                width: 90%;
+                margin: 0 auto;
                 align-items: center;
             }
         }
