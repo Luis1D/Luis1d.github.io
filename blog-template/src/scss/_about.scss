@@ -14,4 +14,41 @@
         font-weight: lighter;
         letter-spacing: 1.25px;
     }
+
+    .tech-used-container {
+        ul {
+            display: flex;
+            flex-direction: column;
+            padding: 0;
+        }
+        li {
+            list-style: none;
+            background-color: rgba(0, 0, 0, 0.507);
+            margin-bottom: 1rem;
+            padding: 1rem;
+            box-shadow: 0 .25rem .25rem rgba(0, 0, 0, 0.9);
+
+            h3 {
+                margin: 0;
+                padding: 0;
+                color: $Green;
+            }
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+        .align-right {
+            text-align: right;
+
+            div {
+                display: flex;
+                padding: 0;
+            }
+        }
+        .icon {
+            width: 4rem;
+        }
+    }
 }
