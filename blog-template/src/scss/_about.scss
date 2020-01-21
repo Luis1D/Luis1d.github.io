@@ -1,5 +1,6 @@
 @import 'variables';
 
+
 .about {
     margin: 0 auto;
     text-align: left;
@@ -9,39 +10,62 @@
     }
     p {
         font-size: 1.25rem;
-        color: rgb(177, 177, 177);
+        font-family: $OpenSans;
+        font-weight: 400;
+        color: $Black;
         letter-spacing: 1px;
-        font-weight: lighter;
         letter-spacing: 1.25px;
     }
 
     .tech-used-container {
         margin-top: 2rem;
+        width: 100%;
+
         ul {
             display: flex;
             flex-direction: column;
+            flex-flow: wrap;
+            justify-content: center;
+            align-items: center;
+            margin: 1rem;
             padding: 0;
+            
         }
         li {
             list-style: none;
-            border-radius: 3rem;
-            margin-bottom: 1rem;
-            // padding: .25rem;
-            background-color: rgba(0, 0, 0, 0.507);
+            border-radius: .5rem;
+            padding: .25rem;
+            background-color: $Black;
+            width: 8rem;
+            height: 8rem;
+            margin: 1rem;
+            box-shadow: 0rem .25rem .25rem 0rem rgba(0, 0, 0, 0.5);
 
-            h3 {
-                margin: 0;
-                padding: 0;
-                color: $Green;
-                font-size: 1.25rem;
+            @media(max-width: 500px) {
+                width: 80%;
             }
+
+            &:hover {
+                box-shadow: 0rem .75rem 1rem 0rem rgba(12, 12, 12, 0.295);
+                cursor: pointer;
+                transition: .25s ease;
+            }
+
             div {
                 display: flex;
-                justify-content: space-between;
+                flex-direction: column;
+                justify-content: space-evenly;
                 width: 90%;
-                height: 5rem;
+                height: 100%;
                 margin: 0 auto;
                 align-items: center;
+            }
+
+            h3 {
+                margin: 0 0 .5rem 0;
+                padding: 0;
+                color: $White;
+                font-size: 1.25rem;
             }
         }
         .align-right {

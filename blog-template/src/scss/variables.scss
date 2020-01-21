@@ -1,13 +1,17 @@
 // GLOBAL VARIABLES
 
 // FONTS
-@import url('https://fonts.googleapis.com/css?family=Inconsolata|Press+Start+2P|Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Press+Start+2P|Space+Mono|Open+Sans:400,700|Roboto&display=swap');
 $PressStart2P: 'Press Start 2P', cursive;
 $SpaceMono: 'Space Mono', monospace;
 $Inconsolata: 'Inconsolata', monospace;
+$OpenSans: 'Open Sans', sans-serif;
 
 // COLORS
-$Blue: rgb(56, 134, 223);
+$Blue: rgb(73, 158, 255);
 $Green: rgb(56, 223, 92);
 $Yellow: rgb(212, 223, 56);
 $Red: rgb(223, 56, 56);
+$White: #fff;
+$Black: #000;
+$Grey: rgb(95, 95, 95);

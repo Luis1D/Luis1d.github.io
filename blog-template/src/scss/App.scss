@@ -6,21 +6,21 @@
 
 /* GLOBAL */
 body {
-  background-color: rgb(14, 14, 14);
-  color: rgb(240, 240, 240);
+  background-color: $White;
+  color: $Black;
   font-family: $Inconsolata;
-  font-weight: lighter;
+  font-weight: 700;
   letter-spacing: .1rem;
 }
 a {
-  color: rgba(224, 224, 224, 0.904);
+  color: $Black;
   text-decoration: none;
 }
 .App {
   text-align: center;
   width: 85%;
   margin: 0 auto;
-  background-color: rgb(24, 24, 24);
+  background-color: $White;
   padding: 1rem;
 
   @media(min-width: 700px) {
