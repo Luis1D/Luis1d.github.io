@@ -52,7 +52,7 @@ const Portfolio = () => {
                             </table>
                         </div>
                         <div className="button-container">
-                            <a href="https://react-todo.luisdeanda.now.sh" target="_blank" rel="noopener noreferrer">Visit App</a>
+                            <a href="https://todo-app.luisdeanda.now.sh/" target="_blank" rel="noopener noreferrer">Visit App</a>
                         </div>
                     </div>
                     
