@@ -11,7 +11,7 @@ const Portfolio = () => {
         <div className="portfolio-section display-item">
                 <div className="portfolio-cards">
                     <h3 className="portfolio-title"> > Cryptocurrncy News Site</h3>
-                    <div className="preview-container">
+                    <div className="preview-container cryptonews-app">
                         <div className="tech-used">
                         <h4>Tech Used:</h4>
                             <table>
@@ -35,7 +35,7 @@ const Portfolio = () => {
                 </div>
                 <div className="portfolio-cards">
                     <h3 className="portfolio-title"> > Todo App</h3>
-                    <div className="preview-container">
+                    <div className="preview-container todo-app">
                     <div className="tech-used">
                         <h4>Tech Used:</h4>
                             <table>
@@ -56,29 +56,6 @@ const Portfolio = () => {
                         </div>
                     </div>
                     
-                </div>
-                <div className="portfolio-cards">
-                    <h3 className="portfolio-title"> > Team Builder</h3>
-                    <div className="preview-container">
-                    <div className="tech-used">
-                        <h4>Tech Used:</h4>
-                            <table>
-                                <tr>
-                                    <th>Language</th>
-                                    <th>Frameworks</th>
-                                    <th>Styling</th>
-                                </tr>
-                                <tr>
-                                    <td>- JavaScript</td>
-                                    <td>- React.JS</td>
-                                    <td>- SASS</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div className="button-container">
-                            <a href="https://user-onboarding.luisdeanda.now.sh/" target="_blank" rel="noopener noreferrer">Visit App</a>
-                        </div>
-                    </div>
                 </div>
         </div>
     )

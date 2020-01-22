@@ -4,7 +4,15 @@ const TechIUse = () => {
     return (
         <div id="techIUse">
             <div className="tech-used-container">
-                <h2> > Tech I normally use</h2>
+                <div className="header-container">
+                    <h2> > COMMON TECH I USE</h2>
+                    <img
+                        src={ require('../assets/toolbox.svg') }
+                        alt="toolbox"
+                        className="toolbox-icon"
+                    />
+                    {/* Icons made by <a href="https://www.flaticon.com/authors/catkuro" title="catkuro">catkuro</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> */}
+                </div>
                 <ul>
                     {/* JAVASCRIPT */}
                     <li>

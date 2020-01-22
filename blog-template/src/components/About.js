@@ -1,5 +1,6 @@
 import React from 'react'
 import TechIUse from './techIUse';
+import Contact from './Contact';
 
 const About = () => {
     return (
@@ -9,6 +10,7 @@ const About = () => {
                 To keep it short, I specialize in frameworks such as React.js for the front-end and Node.js for the back-end plus additional add on libraries to do all the fancy stuff.
             </p>
             <TechIUse />
+            <Contact />
         </div>
     )
 }
