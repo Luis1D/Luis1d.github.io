@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import './scss/App.scss';
 
 import Nav from './components/Nav';
@@ -11,8 +11,9 @@ function App() {
     <div className="App">
     <Nav />
     <Switch>
-      <Route path="/" exact component={About}/>
+      <Route exact path="/" component={About}/>
       <Route path="/Portfolio" component={Portfolio}/>
+      <Redirect to="/" />
     </Switch>
     <div className="icon-attr">Icons from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
     </div>
