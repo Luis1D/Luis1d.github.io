@@ -14,9 +14,21 @@ const Contact = () => {
             <h3>Find me on: </h3>
             <hr/>
             <ul>
-                <li><a href="https://www.linkedin.com/in/luis-de-anda-368aab16b/">LINKEDIN</a></li>
-                <li><a href="https://www.instagram.com/code.with.luis/">INSTAGRAM</a></li>
-                <li><a href="https://github.com/Luis1D">GITHUB</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/luis-de-anda-368aab16b/">
+                        <img src={ require('../assets/linkedin.svg') } alt="linkedin" className="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/code.with.luis/">
+                        <img src={ require('../assets/instagram.svg') } alt="instagram" className="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Luis1D">
+                        <img src={ require('../assets/github-black.svg') } alt="github" className="icon" />
+                    </a>
+                </li>
             </ul>
         </div>
     )

@@ -8,14 +8,22 @@
         width: 2rem;
         margin: 1.15rem 1rem 1rem .5rem;
     }
+    ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-evenly;
+    }
     li {
-        height: 2rem;
+        list-style: none;
 
         a {
             &:hover {
                 color: grey;
                 cursor: pointer;
             }
+        }
+        .icon {
+            width: 5rem;
         }
     }
 }

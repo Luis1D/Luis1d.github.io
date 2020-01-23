@@ -4,7 +4,6 @@ import './scss/App.scss';
 
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
-import Blog from './components/Blog';
 import About from './components/About';
 
 function App() {
@@ -15,6 +14,7 @@ function App() {
       <Route path="/" exact component={About}/>
       <Route path="/Portfolio" component={Portfolio}/>
     </Switch>
+    <div className="icon-attr">Icons from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></div>
     </div>
   );
 }
