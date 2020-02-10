@@ -18,7 +18,7 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
-
+            background-repeat: no-repeat;
             a {
                 color: $White;
                 font-size: 2rem;
@@ -113,13 +113,17 @@
 }
 
 
-.cryptonews-app, .todo-app {
+.cryptonews-app, .todo-app, .reusable-lighters {
     background-size: 100%;
-    height: 24rem;
+    // max-height: 24rem;
 }
 .cryptonews-app {
     background-image: url('../assets/cryptonews.png');
 }
 .todo-app {
     background-image: url('../assets/todoapp.png');
+}
+.reusable-lighters {
+    background-image: url('../assets/reusablelighters.png');
+    // height: 22rem;
 }
