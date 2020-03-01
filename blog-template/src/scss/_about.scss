@@ -36,10 +36,6 @@
         }
         li {
             list-style: none;
-            // display: flex;
-            // flex-direction: column;
-            // justify-content: left;
-
 
             div {
                 display: flex;
@@ -56,10 +52,12 @@
                 &:hover {
                     box-shadow: 0rem .75rem 1rem 0rem rgba(12, 12, 12, 0.295);
                     margin: 0 1rem 2rem 1rem;
-                    // margin-bottom: 2rem;
-                    // padding: 0 1rem 2rem 1rem;
                     cursor: pointer;
                     transition: .25s ease;
+                }
+                @media(max-width: 430px) {
+                    width: 6rem;
+                    height: 6rem;
                 }
             }
 
@@ -68,6 +66,10 @@
                 padding: 0;
                 color: $White;
                 font-size: 1.25rem;
+
+                @media(max-width: 430px) {
+                    font-size: 1rem;
+                }
             }
         }
         .align-right {
@@ -80,6 +82,10 @@
         }
         .icon {
             width: 4rem;
+
+            @media(max-width: 430px) {
+                width: 3rem;
+            }
         }
     }
     .header-container {
