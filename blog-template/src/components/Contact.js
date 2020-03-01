@@ -20,7 +20,7 @@ const Contact = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.instagram.com/code.with.luis/">
+                    <a href="https://www.instagram.com/_luisde/">
                         <img src={ require('../assets/instagram.svg') } alt="instagram" className="icon" />
                     </a>
                 </li>
